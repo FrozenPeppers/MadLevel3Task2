@@ -51,7 +51,6 @@ class PortalsFragment : Fragment() {
     }
 
     private fun onPortalClick(portal: Portal) {
-        ("asdaksdiahusdiasdasdasdasdasd")
         CustomTabsIntent.Builder().build().launchUrl(this.context, Uri.parse(portal.url))
     }
 
